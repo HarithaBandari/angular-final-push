@@ -12,10 +12,7 @@ receiveMsg($event){
   this.message=$event
 
 }
-@Output() MessageEvent = new EventEmitter<string>()
-  sendMsg() {
-    this.MessageEvent.emit(this.message);
-  }
+
   constructor() { }
 
  

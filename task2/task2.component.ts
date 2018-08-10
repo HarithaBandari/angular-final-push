@@ -9,11 +9,9 @@ export class Task2Component implements OnInit {
 
   private data=""
   
-  eventHandler(value:string) {
-    
-   this.data+=value;
-   
-}
+  onKey(value:string){
+    this.data+=value
+  }
   constructor() { }
 
   ngOnInit() {

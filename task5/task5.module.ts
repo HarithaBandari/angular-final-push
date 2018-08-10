@@ -9,7 +9,7 @@ import { Task5SubchildComponentComponent } from './task5-subchild-component/task
     CommonModule
   ],
   declarations: [Task5ParentComponentComponent, Task5ChildComponentComponent, Task5SubchildComponentComponent],
-  exports :  [Task5ParentComponentComponent, Task5ChildComponentComponent, Task5SubchildComponentComponent],
+  exports :  [Task5ParentComponentComponent, Task5ChildComponentComponent, Task5SubchildComponentComponent]
  
 })
 export class Task5Module { }
